@@ -9,3 +9,5 @@ pip install tensorflow==1.8.0
 pip install keras==2.1.5
 pip install sklearn
 pip install pandas
+
+https://github.com/spmallick/learnopencv
