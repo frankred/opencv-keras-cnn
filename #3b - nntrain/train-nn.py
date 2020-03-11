@@ -12,9 +12,9 @@ def getImages(path, classes):
     classes_counter = 0
 
     for x in range (0,len(myList)):
-        myPicList = os.listdir(path+"/"+ classes[classes_counter])
-        for y in myPicList:
-            pic_path = path+"/" + classes[classes_counter] + "/" + y
+        myPicList = os.listdir(path+"/"+ str(classes[classes_counter]))
+        for pic in myPicList:
+            pic_path = path+"/" + str(classes[classes_counter]) + "/" + pic
             print("pic path: " + pic_path)
             curImg = cv2.imread(pic_path)
             images.append(curImg)
@@ -48,9 +48,12 @@ def createModel(classes):
     return model
 
 
-labels = ['none', 'happy']
+labels = [0,1]
 images = getImages('training-images', labels)
 images_dimension=(26,26,3)
+
+print(images)
+print(labels)
 
 X_train, X_test, Y_train, Y_test = train_test_split(images, labels, test_size=0.2)  # if 1000 images split will 200 for testing
 X_train, X_validation, Y_train, Y_validation = train_test_split(X_train, Y_train, test_size=0.2) # if 1000 images 20% of remaining 800 will be 160 for validation
