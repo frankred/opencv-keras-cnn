@@ -5,6 +5,7 @@ This repository contains 4 python scripts that points out what a kernel is, how 
 python-3.6.8-amd64.exe https://www.python.org/downloads/release/python-368/
 
 ## Python Libraries
+```
 pip install opencv-python
 pip install matplotlib
 pip install tensorflow==1.8.0
@@ -13,6 +14,7 @@ pip install sklearn
 pip install pandas
 pip install absl-py
 pip install pathlib
+```
 
 # Sources
 https://www.machinecurve.com/index.php/2019/09/17/how-to-create-a-cnn-classifier-with-keras/
