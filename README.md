@@ -1,6 +1,33 @@
+![OpenCV + Tensorflow + Keras](/banner.png)
+
+# Handwritten smilies detection (CNN)
 This repository contains 4 python scripts that points out what a kernel is, how to create testdata for a convolutional neuronal network, how to create and train a neuronal network and finally how to run camera capture live images against this neuronal network.
 
-![OpenCV + Tensorflow + Keras](/banner.png)
+# Training data
+Image dimension is 26x26 and there are 3 classification types:
+
+## Happy smilies (132 images)
+![Happy smilies](/train-happy.png)
+
+## Sad smilies (112 images)
+![Sad smilies](/train-sad.png)
+
+## No smilies (142 images)
+![No smilies](/train-none.png)
+
+
+# Validation data
+## Happy smilies (15 images)
+![Happy smilies](/validation-happy.png)
+
+## Sad smilies (12 images)
+![Sad smilies](/validation-sad.png)
+
+## No smilies (16 images)
+![No smilies](/validation-none.png)
+
+The total amount of images is just 429 (including 43 images for validation). This is very little training data for a CNN, but the results are very good.
+
 
 # Dependencies
 ## Python
