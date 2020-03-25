@@ -1,7 +1,7 @@
 This repository contains 4 python scripts that points out what a kernel is, how to create testdata for a convolutional neuronal network, how to create and train a neuronal network and finally how to run camera capture live images against this neuronal network.
 
 ![OpenCV + Tensorflow + Keras](/banner.png)
-![Smilies]("/#2 - create testdata - the smilies/images/#0 happy-smilie - alex/1.png")
+![Smilies](/#2 - create testdata - the smilies/images/#0 happy-smilie - alex/1.png)
 ![Smilies]("/#2 - create testdata - the smilies/images/#0 happy-smilie - alex/2.png")
 ![Smilies]("/#2 - create testdata - the smilies/images/#0 happy-smilie - alex/3.png")
 ![Smilies]("/#2 - create testdata - the smilies/images/#0 happy-smilie - alex/4.png")
