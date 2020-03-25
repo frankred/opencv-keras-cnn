@@ -5,6 +5,7 @@ This repository contains 4 python scripts that points out what a kernel is, how 
 
 # Result
 [![Youtube Video CNN](https://img.youtube.com/vi/Q4-DOaoceys/0.jpg)](https://www.youtube.com/watch?v=Q4-DOaoceys)
+
 https://www.youtube.com/watch?v=Q4-DOaoceys
 
 # Training data
