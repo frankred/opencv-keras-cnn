@@ -3,6 +3,9 @@
 # Handwritten smilies detection (CNN)
 This repository contains 4 python scripts that points out what a kernel is, how to create testdata for a convolutional neuronal network, how to create and train a neuronal network and finally how to run camera capture live images against this neuronal network.
 
+# Result
+[![Youtube Video CNN](https://img.youtube.com/vi/Q4-DOaoceys/0.jpg)](https://www.youtube.com/watch?v=Q4-DOaoceys)
+
 # Training data
 Image dimension is 26x26 and there are 3 classification types:
 
