@@ -1,5 +1,7 @@
 This repository contains 4 python scripts that points out what a kernel is, how to create testdata for a convolutional neuronal network, how to create and train a neuronal network and finally how to run camera capture live images against this neuronal network.
 
+![OpenCV + Tensorflow + Keras](/banner.png)
+
 # Dependencies
 ## Python
 python-3.6.8-amd64.exe https://www.python.org/downloads/release/python-368/
